@@ -1,6 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import '~font-awesome/css/font-awesome.css';
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Patrick+Hand|Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Architects+Daughter|Handlee|Indie+Flower|Patrick+Hand|Special+Elite&display=swap');
 body{
   background-image: url("../src/assets/quotesbg.jpg");
   background-position: center center;
