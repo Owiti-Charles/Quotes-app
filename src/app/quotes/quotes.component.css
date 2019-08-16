@@ -1,11 +1,30 @@
 h1{
   font-family: 'Special Elite', cursive;
   color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 .overlay{
-  background-color:rgba(126, 223, 218, 0.301);
+  background-color:rgba(0, 225, 255, 0.301);
   border-radius: 0px;
   margin: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+#name{
+  color:rgb(109, 221, 81);
+}
+.all-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#quotes-button{
+  float: right;
+}
+.card{
+  margin-bottom: 2%;
+  background-color: aliceblue;
 }
