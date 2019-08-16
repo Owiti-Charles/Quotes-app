@@ -3,12 +3,12 @@
     {{ title | titlecase }}
   </h1>
   <div class="all-cards">
-    <div *ngFor="let quote of quotes" class="card" style="width: 21rem;" >
+    <div *ngFor="let quote of quotes let i= index" class="card" style="width: 21rem;"  >
       <div class="card-body">
         <h4 class="card-title">{{quote.title}}</h4>
         <app-quote-details *ngIf='quote.showInfo' bind-quoty='quote'></app-quote-details>
-        <button (click)='toggle(i)' class="btn btn-info btn-sm" id="quotes-button" >See Quote</button>
-
+        <span class="card-subtitle mb-2">Posted by: <span id="name">{{quote.name}}</span></span>
+        <button (click)='displayInfo(i)' class="btn btn-info btn-sm" id="quotes-button" >See Quote</button>
       </div>
     </div>
   </div>
