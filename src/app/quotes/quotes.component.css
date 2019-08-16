@@ -1,0 +1,11 @@
+h1{
+  font-family: 'Special Elite', cursive;
+  color: white;
+}
+.overlay{
+  background-color:rgba(126, 223, 218, 0.301);
+  border-radius: 0px;
+  margin: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
