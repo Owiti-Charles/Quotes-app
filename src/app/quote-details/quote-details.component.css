@@ -1,0 +1,22 @@
+#del,#delete{
+  font-size: 20px;
+  float: right;
+  margin-right: 2%;
+}
+#like{
+  font-size: 12px;
+}
+#dislike{
+  font-size: 12px;
+}
+.hate{
+  margin-left: 10px;
+  background-color: brown;
+  color: white;
+}
+hr{
+  background-color: darkcyan;
+}
+#buttons{
+  margin-bottom: 10%;
+}
