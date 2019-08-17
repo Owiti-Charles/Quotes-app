@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatePipePipe } from './date-pipe.pipe';
+import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DatePipePipe } from './date-pipe.pipe';
     AppComponent,
     QuotesComponent,
     QuoteDetailsComponent,
-    DatePipePipe
+    DatePipePipe,
+    QuotesFormComponent
   ],
   imports: [
     BrowserModule,

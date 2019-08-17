@@ -2,6 +2,15 @@
   <h1>
     {{ title | titlecase }}
   </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+          <app-quotes-form></app-quotes-form>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
   <div class="all-cards">
     <div *ngFor="let quote of sortQuotes let i= index" class="card" style="width: 24rem;"  >
       <div class="card-body">
