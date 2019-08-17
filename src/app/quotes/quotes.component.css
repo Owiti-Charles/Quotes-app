@@ -46,3 +46,8 @@ span{
   color: green;
   font-weight: 700;
 }
+.card-text{
+  font-family: 'Handlee', cursive;
+  font-weight: 570;
+  font-size: 18px;
+}
