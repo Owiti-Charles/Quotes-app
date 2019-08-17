@@ -1,22 +1,31 @@
 <div class="container-fluid">
-  <h2 class="text-center">Add New Quote</h2>
+  <h2 class="heading">Add Quote</h2>
   <hr>
   <form>
       <div class="form-group">
         <label for="name">Your Name</label>
-        <input type="text" required class="form-control" id="name">
+        <input type="text" required class="form-control" id="name" [(ngModel)]="quoted.name" name="name" #name='ngModel' minlength="3">
+        <div *ngIf="name.invalid && name.dirty"
+        class="alert alert-danger">
+        <div *ngIf="name.errors.required">
+            Name is required.
+        </div>
+        <div *ngIf="name.errors.minlength">
+          Name must be at least 3 characters long.
+        </div>
+      </div> 
       </div>
       <div class="form-group">
         <label for="name">Quote Tittle</label>
-        <input type="text" required class="form-control" id="name">
+        <input type="text" required class="form-control" id="title" [(ngModel)]="quoted.title" name="title" #title='ngModel'>
       </div>
       <div class="form-group">
         <label for="description">Quote</label>
-        <textarea class="form-control" id="quote" rows="4" required></textarea>
+        <textarea class="form-control" id="quote" rows="4" required [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'></textarea>
       </div>
       <div class="form-group">
         <label for="name">Quote Author</label>
-        <input type="text" required class="form-control" id="name">
+        <input type="text" required class="form-control" id="author"[(ngModel)]="quoted.name" name="author" #author='ngModel'>
       </div>
       <button class="btn btn-sm btn-success">Add Quote</button>
   </form>
