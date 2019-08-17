@@ -15,12 +15,16 @@ span{
 .overlay{
   background-color:rgba(0, 225, 255, 0.301);
   border-radius: 0px;
-  margin: 5%;
+  margin-top:5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 #name{
   color:rgb(43, 214, 0);
+  font-weight: 700;
 }
 .all-cards{
   display: flex;
@@ -33,4 +37,12 @@ span{
 .card{
   margin-bottom: 2%;
   background-color: aliceblue;
+}
+#date{
+  float: right;
+  font-size: 14px;
+}
+#datecolor{
+  color: green;
+  font-weight: 700;
 }
