@@ -25,4 +25,10 @@ hr{
 }
 .card-text{
   font-family: 'Handlee', cursive;
+  font-weight: 570;
+  font-size: 18px;
+}
+#when{
+  float:right;
+  font-family: 'Handlee', cursive;
 }
