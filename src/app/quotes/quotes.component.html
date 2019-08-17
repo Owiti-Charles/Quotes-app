@@ -3,7 +3,7 @@
     {{ title | titlecase }}
   </h1>
   <div class="all-cards">
-    <div *ngFor="let quote of quotes let i= index" class="card" style="width: 24rem;"  >
+    <div *ngFor="let quote of sortQuotes let i= index" class="card" style="width: 24rem;"  >
       <div class="card-body">
         <h4 class="card-title">{{quote.title}}<button (click)='displayInfo(i)' class="btn btn-info btn-sm" id="quotes-button" >See More</button></h4>
         <p class="card-text" id="param">{{quote.quote}}</p>
