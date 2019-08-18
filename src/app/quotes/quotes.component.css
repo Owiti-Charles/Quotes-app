@@ -37,6 +37,7 @@ span{
 .card{
   margin-bottom: 2%;
   background-color: aliceblue;
+  box-shadow: 2px 2px 3px 2px black;
 }
 #date{
   float: right;
