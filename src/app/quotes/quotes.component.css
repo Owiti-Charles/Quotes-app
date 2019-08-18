@@ -14,13 +14,14 @@ span{
 }
 .overlay{
   background-color:rgba(0, 225, 255, 0.301);
-  border-radius: 0px;
+  border-radius: 5px;
   margin-top:4%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
   margin-bottom: 5%;
   padding-top: 1%;
-  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-bottom: 5%;
 }
 #name{
   color:rgb(43, 214, 0);
